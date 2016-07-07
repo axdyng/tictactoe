@@ -1,0 +1,71 @@
+body {
+  background-color: #c0c0ce;
+}
+
+.container {
+  width: 90%;
+  max-width: 585px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}
+
+/* Header - Score and Player turn image */
+.resetBtn {
+  margin: 1.2em 2em;
+  width: 150px;
+  height: 40px;
+  font-size: 0.9em;
+}
+
+.heading {
+  margin: 1.2em 1.8em;
+  border-top: 2px dashed black;
+  border-bottom: 3px dashed black;
+}
+
+/* Main Body - Table */
+.cell {
+  height: 190px;
+  width: 190px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.cell.leftright {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.cell.topbottom {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.cell.middle {
+  border: 2px solid black;
+}
+/*#cell4, #cell5, #cell6 {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#cell2, #cell5, #cell8 {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+#cell1, #cell4, #cell7 {
+  margin-left: 10px;
+}*/
+
+/* Image section */
+
+/*.imgIcon {
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+}*/
